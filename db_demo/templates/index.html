@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>🏛️ University</h1>
+                <p>Management System</p>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="index.html" class="nav-item active">
+                    <span class="nav-icon">📊</span>
+                    <span>Dashboard</span>
+                </a>
+                <div class="nav-section">
+                    <h3>Academic</h3>
+                    <a href="departments.html" class="nav-item">
+                        <span class="nav-icon">🏢</span>
+                        <span>Departments</span>
+                    </a>
+                    <a href="programs.html" class="nav-item">
+                        <span class="nav-icon">📚</span>
+                        <span>Programs</span>
+                    </a>
+                    <a href="courses.html" class="nav-item">
+                        <span class="nav-icon">📖</span>
+                        <span>Courses</span>
+                    </a>
+                    <a href="sections.html" class="nav-item">
+                        <span class="nav-icon">📝</span>
+                        <span>Sections</span>
+                    </a>
+                    <a href="semesters.html" class="nav-item">
+                        <span class="nav-icon">📅</span>
+                        <span>Semesters</span>
+                    </a>
+                    <a href="classrooms.html" class="nav-item">
+                        <span class="nav-icon">🏫</span>
+                        <span>Classrooms</span>
+                    </a>
+                </div>
+                <div class="nav-section">
+                    <h3>People</h3>
+                    <a href="students.html" class="nav-item">
+                        <span class="nav-icon">👨‍🎓</span>
+                        <span>Students</span>
+                    </a>
+                    <a href="instructors.html" class="nav-item">
+                        <span class="nav-icon">👨‍🏫</span>
+                        <span>Instructors</span>
+                    </a>
+                    <a href="offices.html" class="nav-item">
+                        <span class="nav-icon">🚪</span>
+                        <span>Offices</span>
+                    </a>
+                </div>
+                <div class="nav-section">
+                    <h3>Academic Operations</h3>
+                    <a href="enrollments.html" class="nav-item">
+                        <span class="nav-icon">📋</span>
+                        <span>Enrollments</span>
+                    </a>
+                    <a href="assignments.html" class="nav-item">
+                        <span class="nav-icon">📄</span>
+                        <span>Assignments</span>
+                    </a>
+                    <a href="submissions.html" class="nav-item">
+                        <span class="nav-icon">📤</span>
+                        <span>Submissions</span>
+                    </a>
+                    <a href="teacher-assignments.html" class="nav-item">
+                        <span class="nav-icon">👨‍🏫</span>
+                        <span>Teacher Assignments</span>
+                    </a>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-header">
+                <h2>Dashboard</h2>
+                <div class="header-actions">
+                    <button class="btn btn-primary">+ New Record</button>
+                </div>
+            </header>
+
+            <div class="dashboard-grid">
+                <div class="stat-card">
+                    <div class="stat-icon" style="background: #4f46e5;">🏢</div>
+                    <div class="stat-info">
+                        <h3>Departments</h3>
+                        <p class="stat-number">12</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon" style="background: #10b981;">📚</div>
+                    <div class="stat-info">
+                        <h3>Programs</h3>
+                        <p class="stat-number">45</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon" style="background: #f59e0b;">👨‍🎓</div>
+                    <div class="stat-info">
+                        <h3>Students</h3>
+                        <p class="stat-number">1,234</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon" style="background: #ef4444;">👨‍🏫</div>
+                    <div class="stat-info">
+                        <h3>Instructors</h3>
+                        <p class="stat-number">89</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon" style="background: #8b5cf6;">📖</div>
+                    <div class="stat-info">
+                        <h3>Courses</h3>
+                        <p class="stat-number">156</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon" style="background: #06b6d4;">📝</div>
+                    <div class="stat-info">
+                        <h3>Sections</h3>
+                        <p class="stat-number">342</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h3>Recent Activity</h3>
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Description</th>
+                                <th>Date</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Enrollment</td>
+                                <td>New student enrolled in CS101</td>
+                                <td>2024-01-15</td>
+                                <td><span class="badge badge-success">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Assignment</td>
+                                <td>Assignment submitted by John Doe</td>
+                                <td>2024-01-14</td>
+                                <td><span class="badge badge-warning">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Section</td>
+                                <td>New section created for MATH201</td>
+                                <td>2024-01-13</td>
+                                <td><span class="badge badge-success">Active</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+
+
