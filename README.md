@@ -147,4 +147,19 @@ Open the Laravel URL printed by the server. `/login` and `/register` serve the w
 
 ## Screenshots
 
-**Screenshot placeholders — images not yet available:** department management, student list, and the React Flow schema visualizer. These are capture suggestions, not image links. Add only genuine running-application captures using synthetic data after runtime verification.
+Genuine captures of the academic-management interface. These are interface demonstrations: the instructor records below are built-in sample data from the Blade view. The images do not establish completed database-backed CRUD or production use; the partial-workflow limitations above still apply.
+
+**Teacher assignments** — the instructor-to-section interface with built-in sample records.
+
+[![University teacher-to-section assignment interface with built-in sample data](docs/screenshots/teacher-assignments-demo.png)](docs/screenshots/teacher-assignments-demo.png)
+
+<details>
+<summary>View the program-entry form</summary>
+
+**Program form** — the modal interface for program name, type, and department selection; no successful save or persistence is demonstrated by this capture.
+
+[![University program-entry modal interface demonstration](docs/screenshots/program-form-demo.png)](docs/screenshots/program-form-demo.png)
+
+</details>
+
+Select an image to view the original-resolution capture.
